@@ -8,7 +8,10 @@ public class FrameGrabberSampleEditorTarget : TargetRules
 	public FrameGrabberSampleEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
 
-		ExtraModuleNames.AddRange( new string[] { "FrameGrabberSample" } );
+
+        ExtraModuleNames.AddRange( new string[] { "FrameGrabberSample" } );
 	}
 }
