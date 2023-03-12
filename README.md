@@ -21,3 +21,5 @@ For details, please check BP_FrameGrabberActor and FrameGrabberActor.cpp / h.
 
 ## License
 [MIT](https://github.com/pafuhana1213/FrameGrabberSample/blob/master/LICENSE)
+
+PRESS 1 to start capture
